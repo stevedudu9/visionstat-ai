@@ -2,6 +2,8 @@
 
 VisionStat AI is a Streamlit computer vision analytics and statistical quality inspection platform. It turns uploaded images into measurable quality, detection, defect, anomaly, and process-control insights.
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=https://github.com/stevedudu9/visionstat-ai&branch=main&mainModule=app.py)
+
 ## Features
 
 - Image upload, preview, validation, and metadata summary
@@ -32,6 +34,17 @@ If another Streamlit app is already using the default port, run:
 ```bash
 streamlit run app.py --server.port 8517
 ```
+
+## Deploy On Streamlit Cloud
+
+Use the badge above or create a new Streamlit Cloud app with these settings:
+
+- Repository: `stevedudu9/visionstat-ai`
+- Branch: `main`
+- Main file path: `app.py`
+- Dependency file: `requirements.txt`
+
+The default deployment uses OpenCV contour-based detection. YOLO is optional and should only be enabled if you provide a compatible model file and install `requirements-yolo.txt`.
 
 ## Self-Test
 
