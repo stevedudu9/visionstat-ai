@@ -2,7 +2,9 @@
 
 VisionStat AI is a Streamlit computer vision analytics and statistical quality inspection platform. It turns uploaded images into measurable quality, detection, defect, anomaly, and process-control insights.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=https://github.com/stevedudu9/visionstat-ai&branch=main&mainModule=app.py)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://visionstat-ai-4qwnrvlv74yzaxd2yi4a97.streamlit.app/)
+
+Live app: https://visionstat-ai-4qwnrvlv74yzaxd2yi4a97.streamlit.app/
 
 ## Features
 
@@ -37,7 +39,7 @@ streamlit run app.py --server.port 8517
 
 ## Deploy On Streamlit Cloud
 
-Use the badge above or create a new Streamlit Cloud app with these settings:
+The app is deployed on Streamlit Cloud. To redeploy or recreate it, use these settings:
 
 - Repository: `stevedudu9/visionstat-ai`
 - Branch: `main`

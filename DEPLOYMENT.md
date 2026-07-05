@@ -6,6 +6,12 @@ This guide prepares VisionStat AI for GitHub and Streamlit Cloud deployment.
 
 Use the lightweight OpenCV version first. It is easier to deploy, reproducible, and does not require model downloads.
 
+Live deployment:
+
+```text
+https://visionstat-ai-4qwnrvlv74yzaxd2yi4a97.streamlit.app/
+```
+
 ## Files Needed
 
 ```text
